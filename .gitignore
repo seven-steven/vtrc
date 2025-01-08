@@ -1,0 +1,5 @@
+venv/
+config.json
+build/
+dist/
+文件随机生成器.spec
