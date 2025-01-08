@@ -38,12 +38,11 @@
 ```bash
 # pip install pyinstaller
 
-# Windows
-pyinstaller --name "VTRC(VideoTextRandomCombination)" --windowed --icon=icon.ico --upx-dir=upx --clean main.py
+pyinstaller --name "VTRC" --onefile --windowed --icon=icon.ico --upx-dir=upx --clean main.py
 
 # macOS
-pyinstaller --name "VTRC(VideoTextRandomCombination)" --windowed --icon=icon.icns --upx-dir=upx --clean main.py
+pyinstaller --name "VTRC" --onefile --windowed --icon=icon.icns --upx-dir=upx --clean main.py
 
 # Linux
-pyinstaller --name "VTRC(VideoTextRandomCombination)" --windowed --icon=icon.png --upx-dir=upx --clean main.py
+pyinstaller --name "VTRC" --onefile --windowed --icon=icon.png --upx-dir=upx --clean main.py
 ```
